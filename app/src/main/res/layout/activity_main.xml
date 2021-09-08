@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.MainActivity"
+    android:id="@+id/activity_main">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_track">
+
+<!--    <TextView-->
+<!--        android:id="@+id/album_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="АЛЬБОБМ"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="15dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/title_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="@id/album_TV"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/album_TV"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:text="TITLE"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/artist_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:text="Исполнитель: "-->
+<!--        app:layout_constraintTop_toBottomOf="@id/title_TV"-->
+<!--        app:layout_constraintStart_toStartOf="@id/title_TV"-->
+<!--        android:layout_marginTop="15dp"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/artist_name_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="@id/artist_TV"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/artist_TV"-->
+<!--        app:layout_constraintStart_toEndOf="@id/artist_TV"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:text="исполнитель"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/published_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="YEAR"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/artist_TV"-->
+<!--        app:layout_constraintStart_toStartOf="@id/artist_TV"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/genre_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="@id/published_TV"-->
+<!--        app:layout_constraintStart_toEndOf="@id/published_TV"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/published_TV"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:text="GENRE"/>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        app:layout_constraintTop_toBottomOf="@id/published_TV"-->
+<!--        android:id="@+id/tracksRV"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        tools:context=".ui.FeedAlbum"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:listitem="@layout/item_track" />-->
+<!--    <Button-->
+<!--        android:id="@+id/play"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+

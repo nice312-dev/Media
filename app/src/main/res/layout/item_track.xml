@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/recycler_view_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_circle_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTintMode="add"/>
+    <TextView
+        android:id="@+id/file_name_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SONG SONG SONG"
+        app:layout_constraintStart_toEndOf="@id/play_btn"
+        app:layout_constraintTop_toTopOf="@id/play_btn"
+        app:layout_constraintBottom_toBottomOf="@id/play_btn"
+        android:layout_marginStart="5dp"
+        />
+<!--    <ImageButton-->
+<!--        android:id="@+id/pause_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_pause_circle_24"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:backgroundTintMode="add"-->
+<!--        android:visibility="invisible"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
